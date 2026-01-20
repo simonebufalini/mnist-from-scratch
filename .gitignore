@@ -1,0 +1,8 @@
+a.out
+*.o
+dataset/
+
+# Vim temp
+*.swp
+*.swo
+*~
