@@ -12,11 +12,11 @@
 #define HIDDEN 128
 #define OUTPUT 10
 
-const char images_filename[] = "../dataset/training/train-images-idx3-ubyte";
-const char labels_filename[] = "../dataset/training/train-labels-idx1-ubyte";
+const char images_filename[] = "dataset/training/train-images-idx3-ubyte";
+const char labels_filename[] = "dataset/training/train-labels-idx1-ubyte";
 
-const char test_images[] = "../dataset/testing/t10k-images-idx3-ubyte";
-const char test_labels[] = "../dataset/testing/t10k-labels-idx1-ubyte";
+const char test_images[] = "dataset/testing/t10k-images-idx3-ubyte";
+const char test_labels[] = "dataset/testing/t10k-labels-idx1-ubyte";
 
 // fischer-yates algorithm to shuffle the array
 void shuffle(int *array, size_t n) {
